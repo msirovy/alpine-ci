@@ -1,0 +1,12 @@
+# Build docker image and upload to registry
+#build_image:
+#  image: alpine-aws:git
+#  services:
+#  - docker:dind
+#  script:
+#    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.example.com
+#    - docker build -t registry.example.com/my-group/my-project .
+#    - docker run registry.example.com/my-group/my-project /script/to/run/tests
+#    - docker push registry.example.com/my-group/my-project:latest
+#  only:
+#    - master
