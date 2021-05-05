@@ -1,9 +1,7 @@
-Servis Alpine linux for gitlab-ci pipelines
-===========================================
+Servis image for pipelines with nomad
+=====================================
 
 Including:
-  - aws-cli
-  - terraform
-  - ansible
-
+  - levant
+  - nomad
 
